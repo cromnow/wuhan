@@ -8,7 +8,8 @@ module.exports = {
            test: /\.jsx?$/,
            use: {
               loader: 'babel-loader',
-              options: { presets: ['@babel/preset-react', '@babel/preset-env'] }
+              options: { presets: ['@babel/preset-react', '@babel/preset-env'], rootMode: "upward" }
+              
            }
        },
        {
