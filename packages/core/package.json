@@ -1,0 +1,20 @@
+{
+  "name": "@wuhan/core",
+  "version": "1.0.0",
+  "main": "dist/index.html",
+  "module": "src/index.js",
+  "scripts": {
+      "build": "webpack --config webpack.config.js --mode production",
+      "start": "webpack-dev-server --config webpack.config.dev.js --open"
+  },
+  "dependencies": {
+      "react": "16.8.5",
+      "react-dom": "16.8.5",
+      "@wuhan/ui": "1.0.0"
+  },
+  "peerDependencies": {
+      "react": "^15.0.0 || ^16.0.0",
+      "react-dom": "^15.0.0 || ^16.0.0",
+      "styled-components": "^4.0.0"
+  }
+}
